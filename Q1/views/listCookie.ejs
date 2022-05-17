@@ -1,0 +1,19 @@
+<table>
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+
+   
+    <% cookieList.forEach((x)=>{ %>
+        <tr>
+            <td>
+                <%= x.key %>
+            </td>
+            <td>
+                <%= x.value %>
+            </td>
+        </tr>
+        <% }); %>
+
+</table>
